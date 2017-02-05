@@ -2,6 +2,7 @@
 show git branch color based on status
 
 # Git branch in prompt.
+```bash
 COLOR_RED="\033[0;31m"
 COLOR_YELLOW="\033[0;33m"
 COLOR_GREEN="\033[0;32m"
@@ -41,3 +42,4 @@ function git_branch {
 PS1+="\[\$(git_color)\]"        # colors git status
 PS1+="\$(git_branch)"           # prints current branch
 export PS1
+```
