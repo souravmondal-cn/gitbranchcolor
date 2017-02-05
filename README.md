@@ -1,5 +1,9 @@
 # gitbranchcolor
 show git branch color based on status
+##Put this in your .profile file
+```bash
+vim ~/.profile
+```
 
 # Git branch in prompt.
 ```bash
@@ -43,3 +47,7 @@ PS1+="\[\$(git_color)\]"        # colors git status
 PS1+="\$(git_branch)"           # prints current branch
 export PS1
 ```
+
+Link Reference:
+
+https://coderwall.com/p/pn8f0g/show-your-git-status-and-branch-in-color-at-the-command-prompt
